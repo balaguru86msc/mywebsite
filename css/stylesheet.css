@@ -1,0 +1,239 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearall{
+clear: both;
+}
+.wrapper{
+width: 1000px;
+margin: 0px auto;
+}
+.navbar ul li{
+display: inline-block;
+padding: 20px;
+vertical-align: middle;
+}
+.navbar ul li a {
+font-size: 20px;
+text-decoration: none;
+color: gray;
+}
+.brand_logo{
+float: left;
+padding: 10px 50px 0px;	
+}
+.navbar{
+float: right;
+}
+.lastimage img{
+margin-top: 10px;
+}
+.main_image{
+width: 100%;
+}
+.navbar ul li a:hover{
+color: #4f94f3;
+}
+.onetheird{
+width: 28%;
+}
+.text_head {
+color: #4f94f3;
+font-weight: bold;
+font-size: 20px;
+line-height:24px;
+text-align:center;
+padding: 10px;
+}
+.text_sun{
+text-align: center;
+padding-bottom: 10px;
+color: #8f8f8f;
+line-height:24px;
+}
+.onetheird, .two_two{
+float: left;
+padding: 20px;
+}
+.two_two{
+width: 40%;
+padding: 5%;
+}
+.head_text{
+color: gray;
+font-weight: bold;
+font-size: 22px;
+line-height:24px;
+padding-bottom: 10px;
+}
+.sub_text{
+padding-bottom: 10px;
+color: #8f8f8f;
+line-height:35px;
+}
+.copyright{
+border-top: 1pt solid #8f8f8f;
+padding-top: 20px;
+text-align: center;
+padding-bottom: 10px;
+color: gray;
+line-height: 20px;
+font-size: 12px;
+}
+
+.left_arrow{
+	float: left;
+}
+.right_arrow{
+
+	float: right;
+}
+.wrapper{
+	position: relative;
+}
+.left_arrow{
+	top: 160px;
+	left: 20px;
+	position: absolute;
+}
+.right_arrow{
+	top: 160px;
+	right: 20px;
+	position: absolute;
+}
+
+/* HTML Responsive Media lines */
+
+@media all and (max-width: 1000px) {
+.wrapper{
+width: 90%;
+margin: 0px auto;
+}
+.navbar ul li{
+padding: 10px 20px;
+display: inline-block;
+text-align: center;
+}
+.navbar {
+background-color: #e9e9e9;
+margin: 10px 0px;
+}
+
+.brand_logo{
+width: 100%;
+float: none;
+text-align: center;
+padding: 0px;
+margin-top: 10px;
+}
+.navbar{
+float: none;
+}
+.main_image img{
+width: 100%;
+}
+.onetheird{
+width: 90%;
+}
+.onetheird, .two_two{
+float: nones;
+padding: 20px;
+}
+.two_two{
+width: 90%;
+}
+.arrow{
+	display: none;
+}
+}
+
+@media all and (max-width: 768px) {
+.wrapper{
+width: 90%;
+margin: 0px auto;
+}
+.navbar ul li{
+padding: 10px;
+display: block;
+text-align: center;
+border-bottom: 1px solid #8f8f8f;
+background-color: #e9e9e9;
+}
+.brand_logo{
+width: 100%;
+float: none;
+text-align: center;
+padding: 0px;
+}
+.navbar{
+float: none;
+}
+.lastimage img{
+margin-top: 10px;
+}
+.main_image{
+width: 100%;
+}
+.navbar ul li a:hover{
+color: #4f94f3;
+}
+.onetheird{
+width: 90%;
+}
+.onetheird, .two_two{
+float: nones;
+padding: 20px;
+}
+.two_two{
+width: 90%;
+}
+.lastimage{
+background-color: white !important;
+border-bottom: 0px !important;
+}
+
+}
